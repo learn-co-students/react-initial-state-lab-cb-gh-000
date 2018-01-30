@@ -1,4 +1,4 @@
-# React Initial State Lab
+=- # React Initial State Lab
 
 ## Overview
 In this lab, you'll set initial state in a React component and distinguish between state and props.
