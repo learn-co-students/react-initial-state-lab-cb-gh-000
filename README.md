@@ -10,7 +10,7 @@ Let's pretend we're making an awesome slider for our new portfolio site. Natural
 2. Its initial state should have a property called `currentSlideIndex` that starts at `0`.
 3. It should only render out the text `'I am on slide <CURRENT_SLIDE>'`, where `<CURRENT_SLIDE>` is the value of `this.state.currentSlideIndex`.
 
-## A bomb timer
+## A bomb timefr
 Take a moment to think about what a bomb does and how it works. Don't get all into the nitty gritty — what we're going to focus on right now is the _timer_. Let's create a component that represents a bomb timer that counts down until it reaches `0`. However, the only thing we're going to focus on right now is setting the initial state of the bomb: the amount of seconds left on the timer. Since bomb timers can differ, we'll pass in a prop to our `Bomb` component to determine what the starting count should be.
 
 1. In the `components/Bomb.js` file, create a `Bomb` React component.
