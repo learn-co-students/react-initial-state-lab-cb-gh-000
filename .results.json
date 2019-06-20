@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 2,
+    "pending": 0,
+    "failures": 3,
+    "start": "2019-06-20T14:39:13.396Z",
+    "end": "2019-06-20T14:39:13.422Z",
+    "duration": 26
+  },
+  "tests": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 120",
+        "showDiff": true,
+        "expected": 120,
+        "stack": "AssertionError: expected undefined to equal 120\n    at Context.<anonymous> (test/index-test.js:32:45)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 120",
+        "showDiff": true,
+        "expected": 120,
+        "stack": "AssertionError: expected undefined to equal 120\n    at Context.<anonymous> (test/index-test.js:32:45)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'undefined seconds left before I go boom!' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "undefined seconds left before I go boom!",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'undefined seconds left before I go boom!' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
