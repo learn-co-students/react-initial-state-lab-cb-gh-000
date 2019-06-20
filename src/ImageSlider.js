@@ -11,7 +11,7 @@ class ImageSlider extends React.Component{
 render() {
     return (
       <div className="toggle-button">
-        I am on slide ${this.state.currentSlideIndex}
+        'I am on slide ${this.state.currentSlideIndex}'
       </div>
     )
   }
